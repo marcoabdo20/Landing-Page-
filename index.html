@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="font-Poppins bg-white text-white">
+    <section
+      class="bg-center min-h-dvh bg-cover bg-no-repeat"
+      style="background-image: url(/public/images/home/hero-bg.jpg)"
+    >
+      <header class="flex justify-between items-center p-4 bg-[#23272654]">
+        <div class="text-xl font-bold">
+          <img src="./public/svg/logo.svg" alt="Logo" class="h-8" />
+        </div>
+
+        <nav class="p-4">
+          <div class="flex justify-between items-center">
+            <div class="md:hidden">
+              <button id="nav-toggle" class="text-white focus:outline-none">
+                <!-- icon -->
+                <svg
+                  class="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+
+            <ul class="hidden md:flex space-x-8 text-sm text-white">
+              <li><a href="#" class="hover:text-teal-400">Home</a></li>
+              <li><a href="#" class="hover:text-teal-400">Features</a></li>
+              <li><a href="#" class="hover:text-teal-400">Contact us</a></li>
+            </ul>
+          </div>
+
+          <div id="nav-menu" class="hidden md:hidden">
+            <ul class="flex flex-col space-y-4 text-lg text-white mt-4">
+              <li><a href="#" class="hover:text-teal-400">Home</a></li>
+              <li><a href="#" class="hover:text-teal-400">Features</a></li>
+              <li><a href="#" class="hover:text-teal-400">Contact us</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <button
+          href="#"
+          class="w-[160px] h-[38px] px-6 py-2 bg-[#00756A] hover:bg-[#06bba9] text-white text-sm xs:font-semibold rounded-[50px]"
+        >
+          Book Now
+        </button>
+      </header>
+
+      <div class="flex flex-col justify-center px-3 items-center md:p-[72px]">
+        <h1
+          class="text-[#FAF9F6] lg:text-3xl md:text-2xl pt-20 sm:text-xl sm:pt-20 text-center max-w-lg md:max-w-3xl font-semibold leading-tight mx-auto"
+        >
+          Streamline Your HR Processes with Our All-in-One Dashboard and Mobile
+          App
+        </h1>
+
+        <p
+          class="text-secondary-50 mt-4 font-medium text-center max-w-md mx-auto sm:text-sm md:text-base lg:text-lg"
+        >
+          Simplify attendance tracking, payroll, performance management, and
+          more—all from one intuitive platform.
+        </p>
+
+        <button
+          href="#"
+          class="justify-center items-center mt-8 h-[38px] px-6 py-2 bg-primary-500 hover:bg-[#06bba9] text-white font-semibold rounded-[50px]"
+        >
+          Learn More
+        </button>
+
+        <div class="flex container justify-center items-center mt-10">
+          <img src="public/images/home/hero.png" alt="Dashboard" class="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gray-100">
+      <div class="text-center py-12 px-4">
+        <h1
+          class="text-[#232726] text-3xl md:text-4xl font-bold mb-4 mt-[60px]"
+        >
+          Empower Your HR Team with Essential Tools
+        </h1>
+
+        <p class="text-lg text-gray-600 mb-8">
+          Streamline Your HR Processes with Our All-in-One Dashboard and Mobile
+          App.<br />
+          Simplify attendance tracking, payroll, performance management, and
+          more—all from one intuitive platform.
+        </p>
+      </div>
+
+      <!-- Features -->
+      <div
+        class="px-4 grid grid-cols-12 align-center justify-center pb-16 gap-5"
+      >
+        <!-- Feature 1 -->
+        <div class="col-span-12 sm:col-span-6 lg:col-span-3 text-center">
+          <img
+            src="public/images/home/img1.png"
+            alt="Clock In/Out Icon"
+            class="mx-auto mb-4 w-[81px] h-[175px]"
+          />
+          <h3 class="text-xl h-[62px] text-black font-bold mb-2 pt-[12px]">
+            Easy Clock-In/Out & Attendance Tracking
+          </h3>
+          <p class="h-[120px] p-3 justify-center text-[#615E5E] text-[14px]">
+            Say goodbye to manual attendance tracking. Our system allows
+            employees to clock in and out with ease, while providing you with
+            accurate, real-time attendance data.
+          </p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="col-span-12 sm:col-span-6 lg:col-span-3 text-center">
+          <img
+            src="public/images/home/img2.png"
+            alt="Clock In/Out Icon"
+            class="mx-auto mb-4 w-[281px] h-[175px]"
+          />
+          <h3 class="text-xl h-[62px] text-black font-bold mb-2 pt-[12px]">
+            Easy Clock-In/Out & Attendance Tracking
+          </h3>
+          <p class="h-[120px] p-3 justify-center text-[#615E5E] text-[14px]">
+            Say goodbye to manual attendance tracking. Our system allows
+            employees to clock in and out with ease, while providing you with
+            accurate, real-time attendance data.
+          </p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="col-span-12 sm:col-span-6 lg:col-span-3 text-center">
+          <img
+            src="public/images/home/img3.png"
+            alt="Clock In/Out Icon"
+            class="mx-auto mb-4 w-[181px] h-[175px]"
+          />
+          <h3 class="text-xl text-black font-bold mb-2 pt-[12px]">
+            Easy Clock-In/Out & Attendance Tracking
+          </h3>
+          <p class="p-3 justify-center text-[#615E5E] text-[14px]">
+            Say goodbye to manual attendance tracking. Our system allows
+            employees to clock in and out with ease, while providing you with
+            accurate, real-time attendance data.
+          </p>
+        </div>
+        <!-- Feature 4 -->
+        <div class="col-span-12 sm:col-span-6 lg:col-span-3 text-center">
+          <img
+            src="public/images/home/img4.png"
+            alt="Clock In/Out Icon"
+            class="mx-auto mb-4 w-[81px] h-[175px]"
+          />
+          <h3 class="text-xl text-black font-bold mb-2 pt-[12px]">
+            Easy Clock-In/Out & Attendance Tracking
+          </h3>
+          <p class="p-3 justify-center text-[#615E5E] text-[14px]">
+            Say goodbye to manual attendance tracking. Our system allows
+            employees to clock in and out with ease, while providing you with
+            accurate, real-time attendance data.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ................ -->
+
+    <section class="text-center py-12 px-4 bg-[#00756A]">
+      <h2 class="text-3xl md:text-5xl font-semibold mb-4">
+        Ready to Transform Your HR Management?
+      </h2>
+      <p class="text-lg font-semibold mb-8">
+        Experience the benefits of our all-in-one HR system for yourself.
+        Schedule a demo today and see how our platform can streamline your
+        processes.
+      </p>
+
+      <div class="flex justify-center space-x-4">
+        <a
+          href="#schedule-demo"
+          class="text-sm bg-white text-[#00756A] font-semibold py-3 px-6 hover:border-2 hover:border-white rounded-full hover:text-white hover:bg-[#00756A]"
+        >
+          Schedule A Demo
+        </a>
+
+        <a
+          href="#learn-more"
+          class="text-[14px] border-2 border-white text-white font-semibold py-3 px-6 rounded-full hover:bg-white hover:text-green-800"
+        >
+          Learn More
+        </a>
+      </div>
+    </section>
+
+    <!-- ................ -->
+    <section>
+      <div class="bg-gray-100 container mx-auto">
+        <div class="align-center items-center flex flex-col pt-20">
+          <h1
+            class="text-3xl text-center mb-2 md:text-4xl font-semibold text-black"
+          >
+            Choose the Version That Fits Your Needs
+          </h1>
+          <p
+            class="text-center text-lg md:text-xl font-semibold text-[#767D7C]"
+          >
+            Our HR system is available in both Odoo and .NET versions, giving
+            you the flexibility to select the platform that aligns with your
+            existing infrastructure.
+          </p>
+        </div>
+        <div>
+          <img
+            src="public/images/home/Frame 12.png"
+            alt="Clock In/Out Icon"
+            class="mx-auto mt-10 md:w-[581px] md:h-[499px]"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- ................ -->
+
+    <section class="bg-gray-100 pb-[120px]">
+      <div
+        class="container mx-auto align-center items-center flex flex-col pt-20"
+      >
+        <h1 class="text-4xl text-center pt-20 font-semibold text-black">
+          SB Technology
+        </h1>
+        <p class="p-3 text-center text-xl pt-4 font-semibold text-[#767D7C]">
+          SB Technology is a leading Information Technology ( IT ) company,
+          specializing in providing innovative and reliable IT solutions. The
+          company was founded in [ 2018 ] and has extensive experience in the
+          technology and innovation sector. We offer hardware solutions,
+          software development solutions, Printing & Scanning Solutions, and
+          Maintenance Services.
+        </p>
+      </div>
+    </section>
+
+    <!-- contact us -->
+
+    <section
+      class="grid grid-cols-2 items-center justify-center bg-gray-100 py-12 px-4"
+    >
+      <div class="col-span-2 text-center mb-2">
+        <h2 class="text-4xl md:text-5xl text-black font-semibold">
+          Get in Touch with Us
+        </h2>
+        <p class="text-center text-lg text-gray-500 mb-2">
+          Have questions or need more information? Our team is here to help.
+          Reach out to us anytime.
+        </p>
+      </div>
+
+      <!-- Form -->
+      <div
+        class="w-full justify-center md:order-1 order-2 sm:col-span-2 col-span-2 md:col-span-1 p-6"
+      >
+        <form class="space-y-4">
+          <div>
+            <label
+              class="block pb-2 text-sm font-medium text-gray-700"
+              for="full-name"
+              >Full Name *</label
+            >
+            <input
+              id="full-name"
+              type="text"
+              class="mt-1 w-full text-sm px-4 py-2 border bg-[#FAF9F6] border-[#CACCCC] rounded-md"
+              placeholder="Enter your full name"
+            />
+          </div>
+
+          <div>
+            <label
+              class="block pb-2 text-sm font-medium text-gray-700"
+              for="company-name"
+              >Company Name *</label
+            >
+            <input
+              id="company-name"
+              type="text"
+              class="mt-1 w-full text-sm px-4 py-2 border bg-[#FAF9F6] border-gray-300"
+              placeholder="Enter your company's name"
+            />
+          </div>
+
+          <div>
+            <label
+              class="block pb-2 text-sm font-medium text-gray-700"
+              for="employee-number"
+              >Employee Numbers *</label
+            >
+            <select
+              id="employee-number"
+              class="text-gray-500 text-sm mt-1 w-full px-4 py-2 border bg-[#FAF9F6] border-gray-300 rounded-md"
+            >
+              <option>Select the number of employees</option>
+              <option>1-10</option>
+              <option>11-50</option>
+              <option>51-200</option>
+              <option>201+</option>
+            </select>
+          </div>
+
+          <div>
+            <label
+              class="block pb-2 text-sm font-medium text-gray-700"
+              for="email"
+              >E-mail Address *</label
+            >
+            <input
+              id="email"
+              type="email"
+              class="mt-1 w-full text-sm px-4 py-2 border bg-[#FAF9F6] border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"
+              placeholder="Enter your E-mail Address"
+            />
+          </div>
+
+          <div>
+            <label
+              class="block pb-2 text-sm font-medium text-gray-700"
+              for="phone"
+              >Phone NO *</label
+            >
+            <input
+              id="phone"
+              type="tel"
+              class="mt-1 w-full text-sm px-4 py-2 border border-gray-300 rounded-md focus:ring-green-500 focus:border-green-500"
+              placeholder="Enter your phone number"
+            />
+          </div>
+
+          <div class="flex justify-center pt-4">
+            <button
+              type="submit"
+              class="w-outo px-3 lg:w-full py-3 bg-[#00756A] text-white rounded-full hover:bg-[#06524a]"
+            >
+              Get in Touch
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- Image -->
+      <div class="sm:col-span-2 md:order-2 order-1 col-span-2 md:col-span-1">
+        <img
+          src="public/images/home/contact.jpg"
+          alt="Contact Us"
+          class="rounded-lg shadow-md w-full h-full max-sm:aspect-video object-cover object-top"
+        />
+      </div>
+    </section>
+
+    <!-- ................ -->
+
+    <footer class="bg-gray-900 text-gray-300 py-8">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 px-6">
+        <!-- Logo  -->
+        <div class="col-span-2 items-start">
+          <img src="public/svg/logo.svg" alt="sHRM Logo" class="mb-4" />
+          <p class="mb-6 text-sm text-[#DBDAF1]">
+            Transform Your HR with the Most Comprehensive
+          </p>
+        </div>
+
+        <!-- Center: Contact Information -->
+        <div class="col-span-2 justify-start md:items-center">
+          <h4 class="text-lg text-[#DBDAF1] font-semibold mb-4">
+            Contact Information
+          </h4>
+
+          <p class="text-sm text-[#A7A4A4]">
+            22 El Andalous St., Heliopolis, Cairo, Egypt. 11341 <br />Legal
+            Disclaimer
+          </p>
+          <p class="text-sm mt-4 text-[#A7A4A4]">info@shrm.com</p>
+          <p class="text-sm mt-4 text-[#A7A4A4]">+2 (02) 48807000</p>
+        </div>
+
+        <!-- Icons -->
+        <div class="col-span-3 flex">
+          <a href="#!" role="button" target="">
+            <!-- Facebook -->
+            <span class="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-[#1877f2]">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path
+                  d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"
+                />
+              </svg>
+            </span>
+          </a>
+
+          <a href="#!" role="button">
+            <!-- Instagram -->
+            <span class="[&>svg]:h-5 [&>svg]:w-11 [&>svg]:fill-[#c13584]">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </span>
+          </a>
+
+          <a href="#!" role="button">
+            <!-- Google -->
+            <span class="[&>svg]:h-5 [&>svg]:w-5 [&>svg]:fill-[#ea4335]">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+                <path
+                  d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
+                />
+              </svg>
+            </span>
+          </a>
+
+          <a href="#!" role="button">
+            <!-- X -->
+            <span class="[&>svg]:h-5 [&>svg]:w-11 [&>svg]:fill-black">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <!-- ------- -->
+        <div class="row-span-2 text-end space-x-8 mb-4">
+          <a href="#" class="text-sm hover:text-white">Terms of Use</a>
+          <a href="#" class="text-sm hover:text-white">Privacy Policy</a>
+        </div>
+      </div>
+
+      <div class="col-span-4 text-center">
+        <p class="text-sm mt-4">&copy; 2024 sHRM All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      const navToggle = document.getElementById("nav-toggle");
+      const navMenu = document.getElementById("nav-menu");
+
+      navToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
